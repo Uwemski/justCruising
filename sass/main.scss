@@ -2,6 +2,9 @@
 ***/
 $primary-color: darkblue;
 $text-color: #fff;
+$gutter-horizontal: 40px;
+
+
 * {
     margin: 0;
     padding: 0;
@@ -62,4 +65,23 @@ body {
 
 .header-text--small {
     margin-top: 5px + 5px;
+}
+
+.row {
+    max-width: 114rem;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+
+[class *='col-'] {
+    background-color:darkslategrey;
+    width: 15%;
+    height: 55vh;
+
+    &:not(:last-child) {
+        margin-right: $gutter-horizontal;
+    }
 }

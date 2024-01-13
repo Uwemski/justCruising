@@ -47,3 +47,20 @@ body {
 .header-text--big {
   font-size: 20px;
   letter-spacing: 2px; }
+
+.header-text--small {
+  margin-top: 10px; }
+
+.row {
+  max-width: 114rem;
+  background-color: black;
+  display: flex;
+  flex-direction: row;
+  justify-content: center; }
+
+[class*='col-'] {
+  background-color: darkslategrey;
+  width: 15%;
+  height: 55vh; }
+  [class*='col-']:not(:last-child) {
+    margin-right: 40px; }
