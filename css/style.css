@@ -53,14 +53,13 @@ body {
 
 .row {
   max-width: 114rem;
-  background-color: black;
   display: flex;
   flex-direction: row;
   justify-content: center; }
 
 [class*='col-'] {
   background-color: darkslategrey;
-  width: 15%;
+  width: 19%;
   height: 55vh;
   border-radius: 3px; }
   [class*='col-']:not(:last-child) {
@@ -68,3 +67,29 @@ body {
 
 .starter {
   padding: 20px; }
+
+.section-plan--header, .section-plan--figure {
+  text-align: center; }
+
+.section-plan--header {
+  margin-bottom: 20px; }
+
+.section-plan--figure {
+  font-size: 30px;
+  margin-bottom: 2rem; }
+
+.list-items-children {
+  padding: .8rem; }
+  .list-items-children :not(:last-child) {
+    margin-bottom: .6rem; }
+
+.btn {
+  text-align: center; }
+  .btn-text {
+    display: inline-block;
+    text-transform: capitalize;
+    text-decoration: none;
+    background-color: darkslategrey;
+    color: #fff;
+    padding: 7px 19px;
+    border: 1px solid pink; }

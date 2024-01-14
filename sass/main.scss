@@ -3,6 +3,7 @@
 $primary-color: darkblue;
 $text-color: #fff;
 $gutter-horizontal: 40px;
+$grid-color: darkslategrey;
 
 
 * {
@@ -69,7 +70,7 @@ body {
 
 .row {
     max-width: 114rem;
-    background-color: black;
+    //background-color: black;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -78,7 +79,7 @@ body {
 
 [class *='col-'] {
     background-color:darkslategrey;
-    width: 15%;
+    width: 19%;
     height: 55vh;
     border-radius: 3px;
 
@@ -91,3 +92,43 @@ body {
     padding: 20px;
 }
 
+.section-plan--header, .section-plan--figure {
+    text-align: center;
+}
+
+.section-plan--header {
+    margin-bottom: 20px;
+}
+
+.section-plan--figure {
+    font-size: 30px;
+    margin-bottom: 2rem;
+}
+
+.list-items-children {
+    padding: .8rem;
+    
+
+    :not(:last-child) {
+        margin-bottom: .6rem;
+    }
+}
+
+
+
+.btn {
+    
+    text-align: center;
+    
+    &-text {
+        display: inline-block;
+        text-transform: capitalize;
+        text-decoration: none;
+        background-color: $grid-color;
+        color: $text-color;
+
+        padding: 7px 19px;
+        border: 1px solid pink;
+    }
+    
+}
