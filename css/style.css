@@ -61,6 +61,10 @@ body {
 [class*='col-'] {
   background-color: darkslategrey;
   width: 15%;
-  height: 55vh; }
+  height: 55vh;
+  border-radius: 3px; }
   [class*='col-']:not(:last-child) {
     margin-right: 40px; }
+
+.starter {
+  padding: 20px; }

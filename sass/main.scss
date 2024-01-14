@@ -80,8 +80,14 @@ body {
     background-color:darkslategrey;
     width: 15%;
     height: 55vh;
+    border-radius: 3px;
 
     &:not(:last-child) {
         margin-right: $gutter-horizontal;
     }
 }
+
+.starter {
+    padding: 20px;
+}
+
