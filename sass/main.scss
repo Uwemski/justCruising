@@ -111,4 +111,15 @@ body {
     :not(:last-child) {
         margin-bottom: .6rem;
     }
-}  
+} 
+
+#toggleButton {
+    width: 30px;
+    border-radius: 10px;
+    background-color: rgb(255, 192, 198);
+    cursor: pointer;
+}
+
+#toggleButton.on {
+    background-color: #fff;
+} 
