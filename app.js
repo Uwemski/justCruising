@@ -10,3 +10,17 @@ function setTheme() {
 }
 
 setTheme();
+
+function toggle() {
+    const button = document.getElementById('toggleButton');
+
+    button.classList.toggle("on");
+
+    if (button.classList.contains("on")) {
+        // Do something when the button is turned on
+    } else {
+        // Do something when the button is turned off
+    } 
+}
+
+toggle();
