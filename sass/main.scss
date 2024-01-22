@@ -3,7 +3,6 @@
 $primary-color: darkblue;
 $text-color: #fff;
 $gutter-horizontal: 40px;
-$grid-color: darkslategrey;
 
 
 * {
@@ -24,6 +23,7 @@ body {
     align-items: center;
     /*width: 20%;*/
     
+    
 }
 
 .top-nav--header {
@@ -31,7 +31,7 @@ body {
     flex-direction: column;
     justify-content:space-around;
     align-items: center;
-    text-align: center;
+    //text-align: center;
     background-color: orangered;
     padding: 10px 50px;
     border-radius: 3px;
@@ -79,7 +79,7 @@ body {
 
 [class *='col-'] {
     background-color:darkslategrey;
-    width: 19%;
+    width: 15%;
     height: 55vh;
     border-radius: 3px;
 
@@ -106,29 +106,9 @@ body {
 }
 
 .list-items-children {
-    padding: .8rem;
-    
+    padding: .6rem;
 
     :not(:last-child) {
         margin-bottom: .6rem;
     }
-}
-
-
-
-.btn {
-    
-    text-align: center;
-    
-    &-text {
-        display: inline-block;
-        text-transform: capitalize;
-        text-decoration: none;
-        background-color: $grid-color;
-        color: $text-color;
-
-        padding: 7px 19px;
-        border: 1px solid pink;
-    }
-    
-}
+}  
